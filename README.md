@@ -3,8 +3,11 @@
 ## Usage
 
 `echo 'some text' | morse` → `... --- -- . / - . -..- -`
+
 `echo '... --- -- . / - . -..- -' | unmorse` → `some text`
+
 `echo '... --- -- . / - . -..- -' | morseplay` → Will produce beeps through your speakers
+
 `morseinput` → Will generate morse code from any keypress
 
 ## Build & Install
